@@ -11,6 +11,7 @@ function MyRepos() {
   const removeRepo = (repoToRemove) => {
     const reposFromLS = getFromLocalStorage("repos", []);
     // console.log(repoToRemove);
+    // console.log(reposFromLS);
     // console.log("remove.repo");
 
     const newRepos = reposFromLS.filter((repo) => {

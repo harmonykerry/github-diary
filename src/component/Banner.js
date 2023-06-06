@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function Banner() {
+function Banner({ title, subTitle }) {
   return (
-    <div>Banner</div>
-  )
+    <div className="text-center py-4">
+      <h1 className="my-2  p-2 ">{title}</h1>
+      <h2 className=" fs-5 my-2  p-2 ">{subTitle}</h2>
+    </div>
+  );
 }
 
-export default Banner
+export default Banner;

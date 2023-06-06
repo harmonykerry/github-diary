@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import Alert from "react-bootstrap/Alert";
 
-function ErrorMessage() {
-  return (
-    <div>ErrorMessage</div>
-  )
+function ErrorMessage({ message }) {
+  return <Alert variant="danger">{message}</Alert>;
 }
 
-export default ErrorMessage
+export default ErrorMessage;
